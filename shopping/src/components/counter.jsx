@@ -13,7 +13,7 @@ class Counter extends Component {
         <ul>
           <li>
             {this.state.tags.map((tag) => (
-              <li>{tag}</li>
+              <li key={tag}>{tag}</li>
             ))}
           </li>
         </ul>
