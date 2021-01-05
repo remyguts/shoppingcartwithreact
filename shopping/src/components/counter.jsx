@@ -4,13 +4,13 @@ class Counter extends Component {
   state = {
     count: 0,
   };
-  constructor() {
-    super();
-    this.handleIncrement = this.handleIncrement.bind(this);
-  }
-  handleIncremnt() {
+  // constructor() {
+  //super();
+  //this.handleIncrement = this.handleIncrement.bind(this);
+  // }
+  handleIncremnt = () => {
     console.log("Increment Clicked", this);
-  }
+  };
 
   render() {
     return (
